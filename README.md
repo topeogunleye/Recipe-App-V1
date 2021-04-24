@@ -7,7 +7,6 @@ Create a web page based on the design shown in recreate-this.png
 - Use React Hooks, useEffect and useReducer for fetch api
 - Use of [TheMealDB database](https://www.themealdb.com/api.php)
 - Clicking on Search button fetches & displays results from [TheMealDB database](https://www.themealdb.com/api.php) 
--
 
 [live demo](https://mealdbrecipes.netlify.app/)
 
