@@ -1,6 +1,7 @@
 import Header from './Header';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import MealInfo from './MealInfo';
+import RandomMeal from './RandomMeal';
 
 function App() {
   return (
@@ -9,10 +10,13 @@ function App() {
           <Route exact path="/">
             <Header />
           </Route>
-          <Route path="/MealInfo/:mealID">
+          <Route exact path="/MealInfo/:mealID">
             <MealInfo />
           </Route>
-        </Switch> 
+          <Route exact path="/RandomMeal/">
+            <RandomMeal />
+          </Route>
+        </Switch>  
     </Router>
   );
 }

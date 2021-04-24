@@ -12,15 +12,6 @@ const Header = () => {
     'https://www.themealdb.com/api/json/v1/1/search.php?s=chicken',
     { meals: [] }
   );
-  // const [mealID, setMealID] = useState('');
-
-
-  // const getMealInfoAttribute = (e) => {
-  //   const mealIDData = e.target.getAttribute('data-mealid' );
-  //   setMealID(mealIDData);
-  //   console.log(mealIDData);
-  //   // getMealByID(mealID);
-  // }
 
   return (
     <Fragment>
@@ -48,12 +39,20 @@ const Header = () => {
                 <SearchIcon className="h-5 w-5 text-gray-900" />
               </button>
             </form>
-            <button
-              className="random-btn border rounded cursor-pointer ml-2.5"
-              id="random"
-            >
-              <RefreshIcon className="h-5 w-5 text-gray-900" />
-            </button>
+            <Link to={'/RandomMeal/'}>
+              <button
+                className="random-btn border rounded cursor-pointer ml-2.5"
+                id="random"
+                onCLick={(event) => {
+                  doFetch(
+                    `https://www.themealdb.com/api/json/v1/1/random.php `
+                  );
+                  event.preventDefault();
+                }}
+              >
+                <RefreshIcon className="h-5 w-5 text-gray-900" />
+              </button>
+            </Link>
           </div>
 
           {isError && <div>Something went wrong ...</div>}
@@ -65,17 +64,16 @@ const Header = () => {
             <div id="meals" className="meals">
               {data.meals &&
                 data.meals.map((meal) => (
-                  
                   <div className="meal" key={meal.idMeal}>
-                    <Link to ={`/MealInfo/${meal.idMeal}`}>
+                    <Link to={`/MealInfo/${meal.idMeal}`}>
                       <img
                         className="meal-img"
                         src={meal.strMealThumb}
                         alt={meal.strMeal}
                       />
-                    <div className="meal-info" data-mealid={meal.idMeal}>
-                      <h3>{meal.strMeal}</h3>
-                    </div>
+                      <div className="meal-info" data-mealid={meal.idMeal}>
+                        <h3>{meal.strMeal}</h3>
+                      </div>
                     </Link>
                   </div>
                 ))}
