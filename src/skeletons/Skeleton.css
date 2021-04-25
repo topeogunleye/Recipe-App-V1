@@ -12,33 +12,65 @@
 }
 
 .imageBig {
-  width: 320px;
-  height: 320px
+  width: 240px;
+  height: 240px;
 }
 
 .mealInfo {
-  width: 512px;
+  width: 176px;
   height: 24px;
 }
 
 .textBig {
-  width: 576px;
-  height: 456px;
+  width: 240px;
+  height: 1152px;
 }
 
 .liText {
-  width: 100px;
-  height: 28px;
+  width: 140px;
+  height: 16px;
 }
 
-.imageSmall { 
-  width: 176px;
-  height: 176px;
+.imageSmall {
+  width: 288px;
+  height: 288px;
+}
+
+@media screen and (min-width: 640px) {
+  .imageSmall {
+    width: 176px;
+    height: 176px;
+  }
+
+  .title {
+    width: 50%;
+    height: 24px;
+  }
+
+  .imageBig {
+    width: 240px;
+    height: 240px;
+  }
+
+  .mealInfo {
+    width: 512px;
+    height: 24px;
+  }
+
+  .textBig {
+    width: 576px;
+    height: 456px;
+  }
+
+  .liText {
+    width: 100px;
+    height: 16px;
+  }
 }
 
 /* skeleton profile */
 .skeleton-wrapper {
-  margin: 20px auto;
+  /* margin: 20px auto; */
   padding: 10px 15px;
   border-radius: 4px;
   position: relative;
@@ -75,7 +107,7 @@
 .shimmer {
   width: 50%;
   height: 100%;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   transform: skewX(-20deg);
   box-shadow: 0 0 30px 30px rgba(255, 255, 255, 0.05);
 }
@@ -85,7 +117,13 @@
 }
 
 @keyframes loading {
-  0% { transform: translateX(-150%) }
-  50% { transform: translateX(-60%) }
-  100% { transform: translateX(150%) }
+  0% {
+    transform: translateX(-150%);
+  }
+  50% {
+    transform: translateX(-60%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
 }
