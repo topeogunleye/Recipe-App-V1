@@ -73,12 +73,22 @@
     width: 312px;
     height: 312px;
   }
+
+  .textBig {
+    width: 318.750px;
+    height: 840px;
+  }
 }
 
 @media screen and (min-width: 375px) {
   .imageBig {
     width: 281.25px;
     height: 281.25px;
+  }
+
+  .textBig {
+    width: 281.250px;
+    height: 960px;
   }
 }
 /* skeleton profile */
