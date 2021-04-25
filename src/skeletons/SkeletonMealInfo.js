@@ -12,49 +12,38 @@ const SkeletonMealInfo = ({ theme }) => {
         <SkeletonElement type="mealInfo" />
         <SkeletonElement type="mealInfo" />
         <SkeletonElement type="textBig" />
-        <ul className="pl-0">
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mb-0 mr-1 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mb-0 mr-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
-          <li className="rounded inline-block text-gray-900 text-xs font-bold p-0 mt-0 mr-1 mb-0 ml-0">
-            <SkeletonElement type="liText" />
-          </li>
+        <ul className="single-meal-ul">
+      
+            <SkeletonElement type="liText" class="single-meal-ul-li" />
+        
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+         
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+         
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+          
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+         
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+        
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+         
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+         
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+          
+          
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+       
+        
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+      
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+         
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+        
+            <SkeletonElement type="liText" class="single-meal-ul-li"/>
+          
         </ul>
       </div>
       <Shimmer />
