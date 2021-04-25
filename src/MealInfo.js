@@ -3,6 +3,7 @@ import useFetchMealDbApi from './useFetchMealDbApi';
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useHistory } from 'react-router-dom';
+import SkeletonMealInfo from './skeletons/SkeletonMealInfo';
 
 const MealInfo = () => {
   const { mealID } = useParams();
@@ -46,7 +47,8 @@ const MealInfo = () => {
         <div id="single-meal">
           {isError && <div>Something went wrong ...</div>}
           {isLoading ? (
-            <div className="min-h-screen">Loading ...</div>
+            // <div className="min-h-screen">Loading ...</div>
+            [1,2,3,4,5].map((n) => <SkeletonMealInfo Key={n} theme="dark" />)
           ) : (
             ingredients &&
             data && (

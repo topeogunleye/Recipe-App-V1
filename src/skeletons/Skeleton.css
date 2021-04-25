@@ -1,0 +1,91 @@
+/* basic styles */
+.skeleton {
+  background: #ddd;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.skeleton.title {
+  width: 50%;
+  height: 24px;
+  margin-bottom: 15px;
+}
+
+.imageBig {
+  width: 320px;
+  height: 320px
+}
+
+.mealInfo {
+  width: 512px;
+  height: 24px;
+}
+
+.textBig {
+  width: 576px;
+  height: 456px;
+}
+
+.liText {
+  width: 100px;
+  height: 28px;
+}
+
+.imageSmall { 
+  width: 176px;
+  height: 176px;
+}
+
+/* skeleton profile */
+.skeleton-wrapper {
+  margin: 20px auto;
+  padding: 10px 15px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.wrapper {
+  border-radius: 4px;
+  position: relative;
+}
+
+/* themes */
+.light {
+  background: #f2f2f2;
+}
+
+.dark {
+  background: #444;
+}
+
+.dark .skeleton {
+  background: #777;
+}
+
+/* animation effects */
+.shimmer-wrapper {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: loading 2.5s infinite;
+}
+
+.shimmer {
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+  transform: skewX(-20deg);
+  box-shadow: 0 0 30px 30px rgba(255, 255, 255, 0.05);
+}
+
+.dark .shimmer {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+@keyframes loading {
+  0% { transform: translateX(-150%) }
+  50% { transform: translateX(-60%) }
+  100% { transform: translateX(150%) }
+}
