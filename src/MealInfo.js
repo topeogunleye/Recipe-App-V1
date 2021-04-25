@@ -47,7 +47,6 @@ const MealInfo = () => {
         <div id="single-meal">
           {isError && <div>Something went wrong ...</div>}
           {isLoading ? (
-            // <div className="min-h-screen">Loading ...</div>
             [1,2,3,4,5].map((n) => <SkeletonMealInfo Key={n} theme="dark" />)
           ) : (
             ingredients &&
