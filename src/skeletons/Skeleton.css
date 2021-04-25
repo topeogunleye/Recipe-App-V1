@@ -68,7 +68,7 @@
   }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 425px) {
   .imageBig {
     width: 312px;
     height: 312px;
