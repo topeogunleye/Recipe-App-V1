@@ -3,7 +3,7 @@ import React, { Fragment, useState } from 'react';
 import useFetchMealDbApi from './useFetchMealDbApi';
 import { Link } from 'react-router-dom';
 import SkeletonElement from './skeletons/SkeletonElement';
-import SkeletonHeader from './skeletons/SkeletonHeader';
+import SkeletonHome from './skeletons/SkeletonHome';
 
 
 const Home = () => {
@@ -63,7 +63,7 @@ const Home = () => {
           {/* {data.meals && <h1>{query}</h1> } */}
           {isLoading ? (
             // <div>Loading ...</div>
-            [1,2,3,4,5].map((n) => <SkeletonHeader Key={n} theme="dark"/>)
+            [1,2,3,4,5].map((n) => <SkeletonHome Key={n} theme="dark"/>)
           ) : (
             <div id="meals" className="meals">
               {data.meals &&
