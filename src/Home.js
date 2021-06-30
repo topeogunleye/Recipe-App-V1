@@ -6,7 +6,7 @@ import SkeletonElement from './skeletons/SkeletonElement';
 import SkeletonHeader from './skeletons/SkeletonHeader';
 
 
-const Header = () => {
+const Home = () => {
   const [query, setQuery] = useState('');
   const [
     { data, isLoading, isError },
@@ -89,4 +89,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;
