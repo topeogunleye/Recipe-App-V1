@@ -63,7 +63,7 @@ const Home = () => {
           {/* {data.meals && <h1>{query}</h1> } */}
           {isLoading ? (
             // <div>Loading ...</div>
-            [1,2,3,4,5].map((n) => <SkeletonHome Key={n} theme="dark"/>)
+            [1,2,3,4,5].map((n) => <SkeletonHomes Key={n} theme="dark"/>)
           ) : (
             <div id="meals" className="meals">
               {data.meals &&
