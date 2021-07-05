@@ -58,7 +58,7 @@ const Home = () => {
             </Link>
           </div>
 
-          {isError && <div>Something went wrong ...</div>}
+          {isError && <div>Something went wrong ... </div>}
           {!data.meals && <div>There is no result. Try again!</div>}
           {/* {data.meals && <h1>{query}</h1> } */}
           {isLoading ? (
