@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import SkeletonElement from './skeletons/SkeletonElement';
 import SkeletonHome from './skeletons/SkeletonHome';
 
-
 const Home = () => {
   const [query, setQuery] = useState('');
   const [
@@ -58,12 +57,12 @@ const Home = () => {
             </Link>
           </div>
 
-          {isError && <div >Something went wrong ... </div>}
+          {isError && <div>Something went wrong ... </div>}
           {!data.meals && <div>There is no result. Try again!</div>}
           {/* {data.meals && <h1>{query}</h1> } */}
           {isLoading ? (
             // <div>Loading ...</div>
-            [1,2,3,4,5].map((n) => <SkeletonHome Key={n} theme="dark"/>)
+            [1, 2, 3, 4, 5].map((n) => <SkeletonHome Key={n} theme="dark" />)
           ) : (
             <div id="meals" className="meals">
               {data.meals &&
