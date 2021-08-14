@@ -1,4 +1,4 @@
-import Header from './Header';
+import Header from './Home';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import MealInfo from './MealInfo';
 import RandomMeal from './RandomMeal';
