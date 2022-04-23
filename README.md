@@ -1,6 +1,6 @@
 # Recipa | MealDB App
 
-Recipe searching web app where anyone can search for recipes, bookmark recipes and also add their own recipes.
+> Recipe searching web app where anyone can search for recipes, bookmark recipes and also add their own recipes.
 
 ![demo](./recipa-v1-demo.gif)
 
