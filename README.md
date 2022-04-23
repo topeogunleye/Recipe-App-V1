@@ -20,23 +20,23 @@ Recipe searching web app where anyone can search for recipes, bookmark recipes a
 
 To get a local copy up and running follow these simple example steps:
 
-**In your terminal, navigate to your current directory and run this code**
+1. **In your terminal, navigate to your current directory and run this code**
 
 `git clone https://github.com/topeogunleye/Recipe-App-V2.git`
 
-**Locate the directory in your file explorer**
+2. **Locate the directory in your file explorer**
 
 `cd Recipe-App-V2`
 
-**Install npm or if installed already using this link**
+3. **Install npm or if installed already using this link**
 
 `npm install`
 
-**Start the web dev server depending on your configuration**
+4. **Start the web dev server depending on your configuration**
 
 `npm start`
 
-**The Project should now be live on your browser**
+5. **The Project should now be live on your browser**
 
 ## Authors
 
