@@ -2,7 +2,7 @@
 
 Recipe searching web app where anyone can search for recipes, bookmark recipes and also add their own recipes.
 
-![demo](./src/videos/recipa-demo.gif)
+![demo](./recipa-v1-demo.gif)
 
 ## Built With
 - [TheMealDB database API](https://www.themealdb.com/api.php)
