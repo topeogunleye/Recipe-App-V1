@@ -84,7 +84,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:topeogunleye/Recipe-App-V2.git
+  git clone git@github.com:topeogunleye/Recipe-App-V1.git
 ```
 
 ### Install
@@ -135,29 +135,25 @@ Feel free to check the [issues page](https://github.com/topeogunleye/Recipe-App-
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project, please kindly give it a star on github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Brad Traversy for creating the MealDB recipe tutorial in his [20 Web Projects With Vanilla JavaScript](https://www.udemy.com/share/102yzo3@PmhPkdfvUTqPK6_xIvKR7aPbKrSlnKm8FV28SHC-WLQrQyaGPmGT8wUtYgkbKnBhJA==/) Udemy Course
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **[Where can I get a tutorial to learn how to build a project like this?]**
 
-- **[Question_1]**
+  - [I learn how to build this project by converting Brad Traversy's Vanilla JS MealDB recipe app to a React application]
 
-  - [Answer_1]
+- **[How long did it take you to build this?]**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - [2 weeks]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
