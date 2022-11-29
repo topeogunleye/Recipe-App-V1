@@ -33,13 +33,12 @@
 
 # 📖 [Recipa | MealDB App] <a name="about-project"></a>
 
-**[your_project__name]** is a...
+**[Rwcipa | MealDB App]** is a recipe searching web app where anyone can search for recipes, bookmark recipes and also add their own recipes.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-Recipe searching web app where anyone can search for recipes, bookmark recipes and also add their own recipes.
 
 <details>
   <summary>Client</summary>
@@ -111,8 +110,6 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 ## **Temitope Ogunleye**
 
 - GitHub: [@topeogunleye](https://github.com/topeogunleye)
@@ -132,8 +129,6 @@ Feel free to check the [issues page](https://github.com/topeogunleye/Recipe-App-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project, please kindly give it a star on github.
 
